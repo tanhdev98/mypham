@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+header{
+    background: #2878AB;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.container{
+    padding: 0 300px;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+}
+
+header .container{
+    justify-content: space-between;
+}
+
+header .information{
+    min-width: 900px;
+}
+
+header .information h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 5rem;
+}
+
+header .information h2{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    font-style: italic;
+}
+
+header .information ul{
+    display: flex;
+}
+
+header .information ul li{
+    min-width: 300px;
+}
+
+header .information ul li p{
+    line-height: 2rem;
+}
+
+header .information ul li p i{
+    margin-right: 10px;
+    min-width: 16px;
+}
+
+header .information a{
+    text-decoration: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+header .information a:hover{
+    background: #fff;
+    color: #2878AB;
+}
+
+header .logo{
+    background: url('../img/logo.jpg') no-repeat center 100% / 140%;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+main{
+    display: flex;
+}
+main .left-site{
+    height: 100%;
+    min-width: calc(100% - 800px);
+    padding: 50px 0;
+}
+
+main .contents-wrap .title{
+    color: #2878AB;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+main .contents-wrap:not(:first-child){
+    margin-top: 50px;
+}
+
+main .contents-wrap .contents{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+main .contents-wrap .contents i{
+    font-size: 2rem;
+    color: #fff;
+    background: #2878AB;
+    min-width: 60px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+main .contents-wrap .contents .main-contents{
+    margin-left: 30px;
+    line-height: 2rem;
+}
+
+main .contents-wrap .contents .main-contents h1{
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+main .contents-wrap .contents .main-contents h2{
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+main .contents-wrap .contents .main-contents ul li{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+main .right-site{
+    padding: 50px;
+    width: 800px;
+    background: #E9FAF9;
+}
+
+main .right-site .container{
+    padding: 0 40px;
+}
+
+main .right-site .contents-wrap .contents .main-contents{
+    margin-left: 0;
+}
+
+main .right-site .contents-wrap .contents .main-contents p{
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+    background: #2878AB;
+    padding: 10px;
+    color: #fff;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #000;
+}
